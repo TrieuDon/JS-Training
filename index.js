@@ -1,7 +1,7 @@
 let stuff = ["a", "b", "c", "d"]
-let CRUD = (e) => {
+let CRUD = () => {
     let option = prompt("What do you want? ()C, R, U, D");
-    option.toUpperCase();
+    option = option.toUpperCase();
     let choice = ["C", "R", "U", "D"];
     if (choice.includes(option)) {
         if (option == "C") {
@@ -31,7 +31,6 @@ let CRUD = (e) => {
             }
             else {
                 alert("not valid number. Please try again")
-                
             }   
         }
     }
