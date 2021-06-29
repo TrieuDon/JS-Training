@@ -21,7 +21,6 @@ let CRUD = (e) => {
             }
             else {
                 alert('Position not available');
-                CRUD("U");
             }
         }
         else if (option == "D") {
@@ -32,6 +31,7 @@ let CRUD = (e) => {
             }
             else {
                 alert("not valid number. Please try again")
+                
             }   
         }
     }
